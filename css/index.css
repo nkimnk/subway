@@ -194,8 +194,9 @@ h1 {text-align: center;padding: 30px 0px;}
 #main .subwaymenu .content { padding: 30px 0 50px;}
 #main .subwaymenu .content ul { overflow: hidden;}
 #main .subwaymenu .content li {
-    width: 25%; float: left; padding: 20px;
+    width: 25%; float: left; padding: 20px 15px;
     text-align: center; position: relative;
+    overflow: hidden;
 }
 #main .subwaymenu .content li img {transition: all 0.5s;}
 #main .subwaymenu .content li strong {
@@ -224,7 +225,7 @@ h1 {text-align: center;padding: 30px 0px;}
     transform: scale(1.5) translateY(15px); 
 }
 #main .subwaymenu .content li:hover img {
-    transform: scale(1.2);
+    transform: scale(1.25);
 }
 #main .subwaymenu .content li a::after {
     content: '';
